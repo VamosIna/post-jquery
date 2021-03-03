@@ -1,0 +1,31 @@
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>TEST JQUERY</title>
+    <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.5.1/jquery.min.js"></script>
+    <!-- id Selector -->
+
+</head>
+
+<body>
+
+
+    <h2>Judul</h2>
+    <p>paragraf pertamaa</p>
+    <p id="baris2">Lorem ipsum dolor sit, amet consectetur adipisicing elit. Dicta, est quam iste necessitatibus sapiente doloremque quisquam molestias error et libero animi quaerat temporibus qui nisi, porro tenetur, neque minus. Cupiditate?</p>
+
+    <button>Click Aku Untuk Menyembunyikan Paragraf diatas!</button>
+    </head>
+</body>
+<script>
+    $(document).ready(function() {
+        $("button").click(function() {
+            $(".baris2").hide();
+        })
+    })
+</script>
+
+
+</html>
